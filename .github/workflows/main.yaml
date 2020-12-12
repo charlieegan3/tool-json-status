@@ -16,6 +16,8 @@ jobs:
 
     - name: Checkout
       uses: actions/checkout@v2
+      with:
+        fetch-depth: 0 # needed to allow the correct amend behavior in commit.rb
 
     - name: Run
       env:
