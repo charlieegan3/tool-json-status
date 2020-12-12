@@ -1,0 +1,705 @@
+{
+  "LastUpdated": "2019-01-15T19:50:03Z",
+  "RecentPlays": [
+    {
+      "Track": "Phase",
+      "Artist": "Krrum",
+      "Album": "Honeymoon",
+      "Timestamp": "2019-01-15T16:26:54Z",
+      "Artwork": "https://i.scdn.co/image/0cbba8d914563e484c37476d5e5adb08043c7ac6"
+    },
+    {
+      "Track": "What She Wants",
+      "Artist": "A R I Z O N A",
+      "Album": "What She Wants",
+      "Timestamp": "2019-01-15T16:23:34Z",
+      "Artwork": "https://i.scdn.co/image/71f7529305e8bdd07ca740c38832829c012b701c"
+    },
+    {
+      "Track": "Waking Life",
+      "Artist": "Sorcha Richardson",
+      "Album": "Waking Life",
+      "Timestamp": "2019-01-15T16:20:09Z",
+      "Artwork": "https://i.scdn.co/image/8a364fa6c68eee376cb4b9a44f7a78d8c6753019"
+    },
+    {
+      "Track": "Wildflower",
+      "Artist": "Dutchkid",
+      "Album": "Empires",
+      "Timestamp": "2019-01-15T16:01:44Z",
+      "Artwork": "https://i.scdn.co/image/bd97a137f5e40f511f87ab690d1f3ff59071d26f"
+    },
+    {
+      "Track": "Won't Look Back",
+      "Artist": "Geowulf",
+      "Album": "Great Big Blue",
+      "Timestamp": "2019-01-15T15:58:34Z",
+      "Artwork": "https://i.scdn.co/image/8a71dbefc98eb3504ed0bbd7a9eea7c6464985e1"
+    },
+    {
+      "Track": "Miami Nice, Pt. 1",
+      "Artist": "Lifelike",
+      "Album": "Miami Nice",
+      "Timestamp": "2019-01-15T15:53:54Z",
+      "Artwork": "https://i.scdn.co/image/b7e75bb82a3c95c49b45cce0143a890949bc13fd"
+    },
+    {
+      "Track": "Satellite",
+      "Artist": "Superheart",
+      "Album": "Satellite",
+      "Timestamp": "2019-01-15T15:47:58Z",
+      "Artwork": "https://i.scdn.co/image/0bef66946bd38c1c59e7c99811910349a707fb9b"
+    },
+    {
+      "Track": "Morph - Original Mix",
+      "Artist": "Poté",
+      "Album": "Spiral, My Love",
+      "Timestamp": "2019-01-15T15:43:38Z",
+      "Artwork": "https://i.scdn.co/image/0133489b3dcbed9beb2870ddfb4cb5a34197c4e2"
+    },
+    {
+      "Track": "Thinking Of You",
+      "Artist": "Lincoln Jesser",
+      "Album": "Thinking Of You",
+      "Timestamp": "2019-01-15T15:39:44Z",
+      "Artwork": "https://i.scdn.co/image/333ab21d149b3d51dd5e583f8f4e7cc61587cc93"
+    },
+    {
+      "Track": "Lungs",
+      "Artist": "Shy Luv",
+      "Album": "Lungs EP",
+      "Timestamp": "2019-01-15T15:36:10Z",
+      "Artwork": "https://i.scdn.co/image/868da63cf4adff5986cef41f769f508a21131adf"
+    },
+    {
+      "Track": "Sun In Our Eyes",
+      "Artist": "MØ, Diplo",
+      "Album": "Forever Neverland",
+      "Timestamp": "2019-01-15T15:32:06Z",
+      "Artwork": "https://i.scdn.co/image/618f430630c38fdcb4b2dc1530e01fffcdec8daa"
+    },
+    {
+      "Track": "FOOLS",
+      "Artist": "VRWRK",
+      "Album": "FOOLS",
+      "Timestamp": "2019-01-15T15:28:28Z",
+      "Artwork": "https://i.scdn.co/image/75129032b6dcf73274ad9047c9c2836fd65dab65"
+    },
+    {
+      "Track": "FOOLS",
+      "Artist": "VRWRK",
+      "Album": "FOOLS",
+      "Timestamp": "2019-01-15T15:20:57Z",
+      "Artwork": "https://i.scdn.co/image/75129032b6dcf73274ad9047c9c2836fd65dab65"
+    },
+    {
+      "Track": "Dreams",
+      "Artist": "Promises Ltd.",
+      "Album": "Dreams",
+      "Timestamp": "2019-01-15T14:41:31Z",
+      "Artwork": "https://i.scdn.co/image/5d5727b0fc623c57deca43e5e53b9d9a6972fa94"
+    },
+    {
+      "Track": "On Your Side",
+      "Artist": "Penguin Prison, Soren Bryce",
+      "Album": "Turn It Up",
+      "Timestamp": "2019-01-15T14:37:06Z",
+      "Artwork": "https://i.scdn.co/image/12ae4cbcdc144aec208efbc09edbcd8bab38acfa"
+    },
+    {
+      "Track": "Falling (ft. Marco McKinnis and Kelly Zutrau)",
+      "Artist": "DJDS, Marco McKinnis, Kelly Zutrau",
+      "Album": "Big Wave More Fire",
+      "Timestamp": "2019-01-15T14:33:11Z",
+      "Artwork": "https://i.scdn.co/image/02ffa09d6128eacbb8dd2795d82e95e820b2def1"
+    },
+    {
+      "Track": "Moondancer",
+      "Artist": "Saturday, Monday, Richard Smitt",
+      "Album": "Moondancer",
+      "Timestamp": "2019-01-15T14:29:05Z",
+      "Artwork": "https://i.scdn.co/image/5251b470ed1ac995acaa2e7ccb23e5e996da4d22"
+    },
+    {
+      "Track": "Back for More",
+      "Artist": "Glassio",
+      "Album": "Back for More",
+      "Timestamp": "2019-01-15T14:25:45Z",
+      "Artwork": "https://i.scdn.co/image/47d639c4bacfdacbe980e377f2f1667a006e94d2"
+    },
+    {
+      "Track": "Colorblind - (feat. Tove Lo)",
+      "Artist": "Karma Fields, Tove Lo",
+      "Album": "Colorblind (feat. Tove Lo)",
+      "Timestamp": "2019-01-15T14:22:17Z",
+      "Artwork": "https://i.scdn.co/image/8e24b4d183ef0ba848eafa4d7f79d7c7f39f2b58"
+    },
+    {
+      "Track": "Tears From Heaven",
+      "Artist": "Desire",
+      "Album": "Tears From Heaven",
+      "Timestamp": "2019-01-15T14:15:59Z",
+      "Artwork": "https://i.scdn.co/image/b45798891650e71e75db1434ca180de68c091aee"
+    },
+    {
+      "Track": "I Took Your Picture - Étienne de Crécy Remix",
+      "Artist": "Cults, Étienne de Crécy",
+      "Album": "I Took Your Picture (Étienne de Crécy Remix)",
+      "Timestamp": "2019-01-15T14:12:13Z",
+      "Artwork": "https://i.scdn.co/image/92967b5143266ac7038c2e2526ad658a56fa5266"
+    },
+    {
+      "Track": "paradise",
+      "Artist": "iZNiiK",
+      "Album": "EP 3",
+      "Timestamp": "2019-01-15T14:08:24Z",
+      "Artwork": "https://i.scdn.co/image/6245a495ed21a2259002e29bfe344b97b95ebe62"
+    },
+    {
+      "Track": "Flower",
+      "Artist": "Super Duper",
+      "Album": "VHS",
+      "Timestamp": "2019-01-15T14:03:37Z",
+      "Artwork": "https://i.scdn.co/image/15328e0ccbe82101376fa3401804be3a1efaded9"
+    },
+    {
+      "Track": "Language of Strangers",
+      "Artist": "Arliston",
+      "Album": "Language of Strangers",
+      "Timestamp": "2019-01-15T14:00:52Z",
+      "Artwork": "https://i.scdn.co/image/706e4a0ee582eac3a7104148915f66084486ff3a"
+    },
+    {
+      "Track": "Dancing",
+      "Artist": "Saint Raymond",
+      "Album": "Dancing",
+      "Timestamp": "2019-01-15T13:57:23Z",
+      "Artwork": "https://i.scdn.co/image/61be485e4e74d483d6b5fd3b8a33ecade4e7e107"
+    },
+    {
+      "Track": "Uncertainly Deranged",
+      "Artist": "Bayonne",
+      "Album": "Uncertainly Deranged",
+      "Timestamp": "2019-01-15T13:53:18Z",
+      "Artwork": "https://i.scdn.co/image/875f06882cece1756b6c04d6cea3451648fd5e73"
+    },
+    {
+      "Track": "Past the Buliding - ginla Remix",
+      "Artist": "Gundelach, ARY, ginla",
+      "Album": "Past the Buliding (ginla Remix)",
+      "Timestamp": "2019-01-15T13:48:43Z",
+      "Artwork": "https://i.scdn.co/image/ab3463b2794e894dcb4cf88641cb2d1f4a47138d"
+    },
+    {
+      "Track": "While My Guitar Gently Weeps",
+      "Artist": "Regina Spektor",
+      "Album": "Kubo and the Two Strings (Original Motion Picture Soundtrack)",
+      "Timestamp": "2019-01-15T13:41:35Z",
+      "Artwork": "https://i.scdn.co/image/9d86312730842d75da210626ba4a6c8f9d03df63"
+    },
+    {
+      "Track": "Real One (feat. Boosie Badazz)",
+      "Artist": "Chris Brown and Tyga",
+      "Album": "",
+      "Timestamp": "2019-01-15T11:21:29Z",
+      "Artwork": ""
+    },
+    {
+      "Track": "Light Of The Seven",
+      "Artist": "Ramin Djawadi",
+      "Album": "Game of Thrones: Season 6 (Music from the HBO® Series)",
+      "Timestamp": "2019-01-14T22:35:49Z",
+      "Artwork": "https://images.shazam.com/coverart/t322084941-i1126437693_s400.jpg"
+    },
+    {
+      "Track": "The Phoenix",
+      "Artist": "Judee Sill",
+      "Album": "Heart Food",
+      "Timestamp": "2019-01-14T20:13:45Z",
+      "Artwork": "https://images.shazam.com/coverart/t44433384-i64814082_s400.jpg"
+    },
+    {
+      "Track": "Clarify - Tinlicker Remix",
+      "Artist": "Lane 8, Fractures, Tinlicker",
+      "Album": "Little by Little Remixed",
+      "Timestamp": "2019-01-14T19:29:36Z",
+      "Artwork": "https://i.scdn.co/image/6afe1a9d2a81556d8fea7957e56dbf7e22618cd3"
+    },
+    {
+      "Track": "Television Romance",
+      "Artist": "Pale Waves",
+      "Album": "My Mind Makes Noises",
+      "Timestamp": "2019-01-14T19:25:03Z",
+      "Artwork": "https://i.scdn.co/image/9f689be505a3eb033eaace9622a7d9c6b9d6fa41"
+    },
+    {
+      "Track": "In The Hanging Gardens",
+      "Artist": "Pinkshinyultrablast",
+      "Album": "Miserable Miracles",
+      "Timestamp": "2019-01-14T19:21:25Z",
+      "Artwork": "https://i.scdn.co/image/71377b6885b9a74eee2bed7540ccecaf97c6cb19"
+    },
+    {
+      "Track": "Stoned - Yoke Lore Remix",
+      "Artist": "Blondage, Yoke Lore",
+      "Album": "Stoned (Yoke Lore Remix)",
+      "Timestamp": "2019-01-14T19:16:09Z",
+      "Artwork": "https://i.scdn.co/image/417bec6beb0f6d248b8b0a621499b2c4cfcf48a8"
+    },
+    {
+      "Track": "Never Dance Again - Battle Tapes Remix",
+      "Artist": "Sunset Neon, Battle Tapes",
+      "Album": "Never Dance Again (Battle Tapes Remix)",
+      "Timestamp": "2019-01-14T19:12:21Z",
+      "Artwork": "https://i.scdn.co/image/7021b4a1921bab41504dd27bf3dd114ee8d6e590"
+    },
+    {
+      "Track": "Lovely Sweet Divine",
+      "Artist": "Eelke Kleijn",
+      "Album": "Lovely Sweet Divine / A Tale Of Two Lovers",
+      "Timestamp": "2019-01-14T19:08:10Z",
+      "Artwork": "https://i.scdn.co/image/6264cfbd26951c5920ee20c98ab6a4618892fe9d"
+    },
+    {
+      "Track": "Similarities - Klahr Edit",
+      "Artist": "Felix Pallas, Klahr",
+      "Album": "Similarities",
+      "Timestamp": "2019-01-14T18:44:06Z",
+      "Artwork": "https://i.scdn.co/image/ce43cd08d67584557667a8567910b3e0e432653d"
+    },
+    {
+      "Track": "Plot Twist - Live",
+      "Artist": "Sigrid",
+      "Album": "Spotify Live",
+      "Timestamp": "2019-01-14T18:40:26Z",
+      "Artwork": "https://i.scdn.co/image/05c5a62a5df588df20dd382e4ec49feb3889afa5"
+    },
+    {
+      "Track": "Follow My Girl",
+      "Artist": "The Japanese House",
+      "Album": "Follow My Girl",
+      "Timestamp": "2019-01-14T18:36:42Z",
+      "Artwork": "https://i.scdn.co/image/0e0746625f133a049f2d50cb9699250a658829c6"
+    },
+    {
+      "Track": "Glow",
+      "Artist": "Digitalism",
+      "Album": "Glow",
+      "Timestamp": "2019-01-14T18:32:24Z",
+      "Artwork": "https://i.scdn.co/image/99ad8e61a99708de16fb6f42d3696c566cdf0624"
+    },
+    {
+      "Track": "Strangers",
+      "Artist": "Sigrid",
+      "Album": "Strangers",
+      "Timestamp": "2019-01-14T18:27:38Z",
+      "Artwork": "https://i.scdn.co/image/9176a5b72f587201f22d71b7bfac0b03b8df2538"
+    },
+    {
+      "Track": "Tell Me What You Dream",
+      "Artist": "Timothy B. Schmit",
+      "Album": "Playin' It Cool",
+      "Timestamp": "2019-01-14T18:23:45Z",
+      "Artwork": "https://i.scdn.co/image/3584b3eb24946998f7b6257dbff307dd24594b00"
+    },
+    {
+      "Track": "And When The Night Comes",
+      "Artist": "Jon \u0026 Vangelis",
+      "Album": "Private Collection",
+      "Timestamp": "2019-01-14T18:20:45Z",
+      "Artwork": "https://i.scdn.co/image/469ed08d8a78a781a91aeee052497a46082dde6c"
+    },
+    {
+      "Track": "Renee - 1997 Remastered Version",
+      "Artist": "Talk Talk",
+      "Album": "It's My Life",
+      "Timestamp": "2019-01-14T18:12:03Z",
+      "Artwork": "https://i.scdn.co/image/2cdedf5d8828adea2f081b65da4ccd438715c659"
+    },
+    {
+      "Track": "The End Of The Innocence",
+      "Artist": "Don Henley",
+      "Album": "The End Of The Innocence",
+      "Timestamp": "2019-01-14T18:05:40Z",
+      "Artwork": "https://i.scdn.co/image/c79facd2f95283bcd8b1a57a0fe14ed803a28912"
+    },
+    {
+      "Track": "English Landscape Tradition",
+      "Artist": "The Durutti Column",
+      "Album": "The Guitar and Other Machines",
+      "Timestamp": "2019-01-14T18:00:23Z",
+      "Artwork": "https://i.scdn.co/image/36d3f0b03e31e4a8c891ff3d4a9588ba1538813a"
+    },
+    {
+      "Track": "English Landscape Tradition",
+      "Artist": "The Durutti Column",
+      "Album": "The Guitar and Other Machines",
+      "Timestamp": "2019-01-14T17:50:16Z",
+      "Artwork": "https://i.scdn.co/image/36d3f0b03e31e4a8c891ff3d4a9588ba1538813a"
+    },
+    {
+      "Track": "Boadicea - 2009 Remastered Version",
+      "Artist": "Enya",
+      "Album": "The Celts",
+      "Timestamp": "2019-01-14T17:07:04Z",
+      "Artwork": "https://i.scdn.co/image/ed7dfcd6fc0f9b7bab18808987fa1fdea0870b2c"
+    },
+    {
+      "Track": "Theme From Harry's Game - Remastered 2003",
+      "Artist": "Clannad",
+      "Album": "Magical Ring",
+      "Timestamp": "2019-01-14T17:03:31Z",
+      "Artwork": "https://i.scdn.co/image/1552cffe359c81e70f93bb398eb859254cc5af71"
+    },
+    {
+      "Track": "Any Second Now (Voices)",
+      "Artist": "Depeche Mode",
+      "Album": "Speak And Spell (Deluxe)",
+      "Timestamp": "2019-01-14T17:01:02Z",
+      "Artwork": "https://i.scdn.co/image/fae206a76aa6bc70e07d6f2754bbee02b460c683"
+    },
+    {
+      "Track": "Woman In Chains",
+      "Artist": "Tears For Fears, Oleta Adams",
+      "Album": "The Seeds Of Love",
+      "Timestamp": "2019-01-14T16:58:26Z",
+      "Artwork": "https://i.scdn.co/image/2850f9b3c3e9c5bdf4c58396620881bd6890eb71"
+    },
+    {
+      "Track": "Par Avion",
+      "Artist": "Mike \u0026 The Mechanics",
+      "Album": "Mike + The Mechanics",
+      "Timestamp": "2019-01-14T16:51:53Z",
+      "Artwork": "https://i.scdn.co/image/6f3e87ecf9bf8afc2a0f3832017ac17e98363c25"
+    },
+    {
+      "Track": "At The Water's Edge",
+      "Artist": "Roger Eno",
+      "Album": "Voices",
+      "Timestamp": "2019-01-14T16:48:11Z",
+      "Artwork": "https://i.scdn.co/image/908aff40cfc3cf00cc217936227269b70094ef66"
+    },
+    {
+      "Track": "Mystified - 2017 Remaster",
+      "Artist": "Fleetwood Mac",
+      "Album": "Tango In the Night (Deluxe)",
+      "Timestamp": "2019-01-14T16:45:22Z",
+      "Artwork": "https://i.scdn.co/image/6745f6af5d57f2ee14cb320ce1edf9fda05c08e2"
+    },
+    {
+      "Track": "Saturday Night",
+      "Artist": "The Blue Nile",
+      "Album": "Hats",
+      "Timestamp": "2019-01-14T16:42:12Z",
+      "Artwork": "https://i.scdn.co/image/27a25bc72d1cfe84383bf6b65e7ae8052fdc74d8"
+    },
+    {
+      "Track": "Army Dreamers",
+      "Artist": "Kate Bush",
+      "Album": "Never For Ever",
+      "Timestamp": "2019-01-14T16:35:43Z",
+      "Artwork": "https://i.scdn.co/image/49407a4e794c23d3928fa2d4221dc375219158fe"
+    },
+    {
+      "Track": "MLK - Remastered 2009",
+      "Artist": "U2",
+      "Album": "The Unforgettable Fire (Deluxe Edition Remastered)",
+      "Timestamp": "2019-01-14T16:32:44Z",
+      "Artwork": "https://i.scdn.co/image/18e4f354b3b28ddacf232beffb241c51360bfceb"
+    },
+    {
+      "Track": "Running To Stand Still",
+      "Artist": "U2",
+      "Album": "The Joshua Tree (Super Deluxe)",
+      "Timestamp": "2019-01-14T16:30:10Z",
+      "Artwork": "https://i.scdn.co/image/a40ca9f36db63a7c43b63d97f8e463dacb4d6b33"
+    },
+    {
+      "Track": "I Never Thought I'd See the Day",
+      "Artist": "Sade",
+      "Album": "Stronger Than Pride",
+      "Timestamp": "2019-01-14T16:25:51Z",
+      "Artwork": "https://i.scdn.co/image/ae145ea7675206732b26a84268c76900142d7644"
+    },
+    {
+      "Track": "In Mysterious Ways",
+      "Artist": "John Foxx",
+      "Album": "The Virgin Years 1980-1985",
+      "Timestamp": "2019-01-14T16:17:40Z",
+      "Artwork": "https://i.scdn.co/image/1b13574d3ccc51cf7e474a291566469d6846392c"
+    },
+    {
+      "Track": "Requiem Again",
+      "Artist": "The Durutti Column",
+      "Album": "Vini Reilly",
+      "Timestamp": "2019-01-14T16:14:34Z",
+      "Artwork": "https://i.scdn.co/image/2a884d81d891e6f9b377b23cb8ae5989356bb2a4"
+    },
+    {
+      "Track": "Chemicals",
+      "Artist": "Dean Lewis",
+      "Album": "Same Kind Of Different",
+      "Timestamp": "2019-01-14T16:10:33Z",
+      "Artwork": "https://i.scdn.co/image/762654ac1174a497520502922dbd7d779c7169d0"
+    },
+    {
+      "Track": "Perfect Symphony (Ed Sheeran \u0026 Andrea Bocelli)",
+      "Artist": "Ed Sheeran, Andrea Bocelli",
+      "Album": "Perfect Symphony (Ed Sheeran \u0026 Andrea Bocelli)",
+      "Timestamp": "2019-01-14T16:09:56Z",
+      "Artwork": "https://i.scdn.co/image/e1819152179db9d41c9c38701c33a45b8210b01c"
+    },
+    {
+      "Track": "Come Home",
+      "Artist": "The Undercover Dream Lovers",
+      "Album": "Come Home",
+      "Timestamp": "2019-01-14T16:05:31Z",
+      "Artwork": "https://i.scdn.co/image/42d5fd4515ce83e793ee9e57c6cc3ec5df6e28ee"
+    },
+    {
+      "Track": "The Photograph",
+      "Artist": "Still Corners",
+      "Album": "The Photograph",
+      "Timestamp": "2019-01-14T15:10:36Z",
+      "Artwork": "https://i.scdn.co/image/49ea9b48fa7314169b70bca88854b10b7904a7f3"
+    },
+    {
+      "Track": "Livin' la Vida Loca",
+      "Artist": "Ricky Martin",
+      "Album": "Ricky Martin",
+      "Timestamp": "2019-01-14T15:06:18Z",
+      "Artwork": "https://i.scdn.co/image/dfa3b60a35b8795baab0c96dbe3e5a1fa7878888"
+    },
+    {
+      "Track": "Rock Your Body",
+      "Artist": "Justin Timberlake",
+      "Album": "Justified",
+      "Timestamp": "2019-01-14T15:04:29Z",
+      "Artwork": "https://i.scdn.co/image/ac3a183dbf102423f35cc9f23276f0aad2e9e342"
+    },
+    {
+      "Track": "Fake Friends",
+      "Artist": "Sigrid",
+      "Album": "Don't Kill My Vibe - EP",
+      "Timestamp": "2019-01-14T15:02:48Z",
+      "Artwork": "https://i.scdn.co/image/31da419250f5997a9038e6ee7ce81ed754114256"
+    },
+    {
+      "Track": "Strangers",
+      "Artist": "Sigrid",
+      "Album": "Strangers",
+      "Timestamp": "2019-01-14T14:59:26Z",
+      "Artwork": "https://i.scdn.co/image/9176a5b72f587201f22d71b7bfac0b03b8df2538"
+    },
+    {
+      "Track": "Leave But Don’t Go",
+      "Artist": "Violet Days",
+      "Album": "Leave But Don't Go",
+      "Timestamp": "2019-01-14T14:55:32Z",
+      "Artwork": "https://i.scdn.co/image/994bde7a7e64cbd0ac8f62ff22971ebf46fdc089"
+    },
+    {
+      "Track": "Capital Letters",
+      "Artist": "Hailee Steinfeld, BloodPop®",
+      "Album": "Fifty Shades Freed (Original Motion Picture Soundtrack)",
+      "Timestamp": "2019-01-14T14:52:17Z",
+      "Artwork": "https://i.scdn.co/image/5b986e6923dc656bbd49c20819640c4c356c566b"
+    },
+    {
+      "Track": "Wading Through The Crowds",
+      "Artist": "Makoto, Karina Ramage",
+      "Album": "Forza Horizon 4: Hospital Soundtrack",
+      "Timestamp": "2019-01-14T14:48:37Z",
+      "Artwork": "https://i.scdn.co/image/9aabbc0e60644d8d1e0b80c8594c733792d9e926"
+    },
+    {
+      "Track": "Sucker Punch",
+      "Artist": "Sigrid",
+      "Album": "Sucker Punch",
+      "Timestamp": "2019-01-14T14:44:00Z",
+      "Artwork": "https://i.scdn.co/image/1291d372a26e53981874e28cff3e9d8daa638290"
+    },
+    {
+      "Track": "Rebirth - Pablo Artigas Remix",
+      "Artist": "Aly \u0026 Fila, Pablo Artigas",
+      "Album": "Rebirth (Pablo Artigas Remix)",
+      "Timestamp": "2019-01-14T14:40:46Z",
+      "Artwork": "https://i.scdn.co/image/e616193dc1815c54983ed8656aa8a19b15da65da"
+    },
+    {
+      "Track": "Million Bucks - Violet Days Remix",
+      "Artist": "Smallpools, Violet Days",
+      "Album": "Million Bucks (Violet Days Remix)",
+      "Timestamp": "2019-01-14T14:33:53Z",
+      "Artwork": "https://i.scdn.co/image/1c040f0e793232f9b3a3fd7f5b56e14f3ecda041"
+    },
+    {
+      "Track": "Your Girl",
+      "Artist": "Violet Days",
+      "Album": "Your Girl",
+      "Timestamp": "2019-01-14T14:30:23Z",
+      "Artwork": "https://i.scdn.co/image/0f28dfe5a910bbcac21fb0d6cfa75054b0941220"
+    },
+    {
+      "Track": "Hayati",
+      "Artist": "Sabrepulse",
+      "Album": "Exile",
+      "Timestamp": "2019-01-14T14:26:30Z",
+      "Artwork": "https://i.scdn.co/image/708e77e3d45bca6a36127c67727ec50f929c2722"
+    },
+    {
+      "Track": "Fake Friends - Live",
+      "Artist": "Sigrid",
+      "Album": "Spotify Live",
+      "Timestamp": "2019-01-14T14:21:15Z",
+      "Artwork": "https://i.scdn.co/image/05c5a62a5df588df20dd382e4ec49feb3889afa5"
+    },
+    {
+      "Track": "Don't Kill My Vibe - Cedric Gervais Remix",
+      "Artist": "Sigrid, Cedric Gervais",
+      "Album": "Don't Kill My Vibe (Remixes)",
+      "Timestamp": "2019-01-14T14:17:48Z",
+      "Artwork": "https://i.scdn.co/image/fe1a16c5325ed18c79831fa2a662c5a0377cdd0a"
+    },
+    {
+      "Track": "Believe It",
+      "Artist": "White Lies",
+      "Album": "Believe It",
+      "Timestamp": "2019-01-14T14:14:39Z",
+      "Artwork": "https://i.scdn.co/image/5ebd59a22b0931b90f6b6162a3f6aa621e05fa9e"
+    },
+    {
+      "Track": "Everybody Knows",
+      "Artist": "Sigrid",
+      "Album": "Justice League (Original Motion Picture Soundtrack)",
+      "Timestamp": "2019-01-14T14:11:09Z",
+      "Artwork": "https://i.scdn.co/image/0c80b35decca3f1bb5df880e766e95039feb9dad"
+    },
+    {
+      "Track": "What Happened?",
+      "Artist": "Gilligan Moss",
+      "Album": "What Happened?",
+      "Timestamp": "2019-01-14T14:06:43Z",
+      "Artwork": "https://i.scdn.co/image/0109582b937858929c7caa06fee021e8abdfcf10"
+    },
+    {
+      "Track": "Just A Little - James Bluck Remix",
+      "Artist": "Violet Days, James Bluck",
+      "Album": "Just A Little (Remixes)",
+      "Timestamp": "2019-01-14T14:01:34Z",
+      "Artwork": "https://i.scdn.co/image/e574348fd54830cdfff0beaf83cd6ed4912a6b1c"
+    },
+    {
+      "Track": "Fire",
+      "Artist": "Anna Of The North",
+      "Album": "Lovers",
+      "Timestamp": "2019-01-14T13:57:37Z",
+      "Artwork": "https://i.scdn.co/image/82320b75ec3292dad680f01ce3659ff56bd71fbc"
+    },
+    {
+      "Track": "Glow",
+      "Artist": "Gold Fields",
+      "Album": "Glow",
+      "Timestamp": "2019-01-14T13:54:51Z",
+      "Artwork": "https://i.scdn.co/image/cafe92ebf2a9ba4a59b9232378fc8f5dbefbe078"
+    },
+    {
+      "Track": "Glow",
+      "Artist": "Gold Fields",
+      "Album": "Glow",
+      "Timestamp": "2019-01-14T13:52:43Z",
+      "Artwork": "https://i.scdn.co/image/cafe92ebf2a9ba4a59b9232378fc8f5dbefbe078"
+    },
+    {
+      "Track": "Conqueror",
+      "Artist": "AURORA",
+      "Album": "All My Demons Greeting Me As A Friend (Deluxe)",
+      "Timestamp": "2019-01-14T13:46:39Z",
+      "Artwork": "https://i.scdn.co/image/df711d95b4ce7b74aebb55bd00d773155386084d"
+    },
+    {
+      "Track": "Heaven/Hell",
+      "Artist": "CHVRCHES",
+      "Album": "Love Is Dead",
+      "Timestamp": "2019-01-14T13:43:11Z",
+      "Artwork": "https://i.scdn.co/image/23236f96e36c163099b4770b5aa4f04146b71a7e"
+    },
+    {
+      "Track": "Need Your Love - Digitalism Remix",
+      "Artist": "Riton, Jagga",
+      "Album": "Need Your Love",
+      "Timestamp": "2019-01-14T13:38:04Z",
+      "Artwork": "https://i.scdn.co/image/880a606303ad939dc8b67a26c80361951d18d7ba"
+    },
+    {
+      "Track": "Need Your Love - Digitalism Remix",
+      "Artist": "Riton, Jagga",
+      "Album": "Need Your Love",
+      "Timestamp": "2019-01-14T12:41:43Z",
+      "Artwork": "https://i.scdn.co/image/880a606303ad939dc8b67a26c80361951d18d7ba"
+    },
+    {
+      "Track": "What I Need (feat. Kehlani)",
+      "Artist": "Hayley Kiyoko, Kehlani",
+      "Album": "Expectations",
+      "Timestamp": "2019-01-14T12:24:54Z",
+      "Artwork": "https://i.scdn.co/image/c72d42255bf2965481b7e07ca71e11b64fd8ad21"
+    },
+    {
+      "Track": "Heart of Darkness",
+      "Artist": "GHOST DATA",
+      "Album": "Crystal Cathedral",
+      "Timestamp": "2019-01-14T12:21:14Z",
+      "Artwork": "https://i.scdn.co/image/0ec9c33ea8464ad093c02e8146a341f7b348067b"
+    },
+    {
+      "Track": "I Know A Place",
+      "Artist": "MUNA",
+      "Album": "About U",
+      "Timestamp": "2019-01-14T12:15:50Z",
+      "Artwork": "https://i.scdn.co/image/77d5914dde0b423a695195bf7c9af1510b202965"
+    },
+    {
+      "Track": "Drink About",
+      "Artist": "Seeb, Dagny",
+      "Album": "Nice To Meet You",
+      "Timestamp": "2019-01-14T12:11:17Z",
+      "Artwork": "https://i.scdn.co/image/5cd227a798b8362e416e762923f20d022cdc5db8"
+    },
+    {
+      "Track": "Used To You",
+      "Artist": "Dagny",
+      "Album": "Used To You",
+      "Timestamp": "2019-01-14T12:08:13Z",
+      "Artwork": "https://i.scdn.co/image/f0103b4ade0a19a42f4cdc3a321abc7ae9c9b918"
+    },
+    {
+      "Track": "hold on",
+      "Artist": "flor",
+      "Album": "come out. you're hiding (deluxe)",
+      "Timestamp": "2019-01-14T12:05:00Z",
+      "Artwork": "https://i.scdn.co/image/2d7ba416fd1ae2557c3d1646a89e2875bf2a3fd3"
+    },
+    {
+      "Track": "Lights",
+      "Artist": "Gudok",
+      "Album": "Lights",
+      "Timestamp": "2019-01-14T12:01:34Z",
+      "Artwork": "https://i.scdn.co/image/e189b5fa0d1715100a34c866566e2733306ba392"
+    },
+    {
+      "Track": "Human Nature",
+      "Artist": "Paperwhite",
+      "Album": "Human Nature",
+      "Timestamp": "2019-01-14T11:57:28Z",
+      "Artwork": "https://i.scdn.co/image/3db8593bc4390b8b598fe9bfe7e4e96086f6dfde"
+    },
+    {
+      "Track": "Backbeat",
+      "Artist": "Dagny",
+      "Album": "Ultraviolet EP",
+      "Timestamp": "2019-01-14T11:54:13Z",
+      "Artwork": "https://i.scdn.co/image/99d51e35cf2b0369f4aeac7c120a80f73a29807d"
+    }
+  ]
+}

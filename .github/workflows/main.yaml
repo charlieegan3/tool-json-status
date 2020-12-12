@@ -1,0 +1,26 @@
+name: Refresh
+
+on:
+  push:
+    branches: [ master ]
+  schedule:
+    - cron: "*/10 * * * *"
+
+jobs:
+  refresh:
+    name: Refresh
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Run
+      env:
+        CONFIG_FILE: ${{ secrets.CONFIG_FILE }}
+      run: |
+        echo $CONFIG_FILE | base64 -d > config.yaml
+
+        go run cmd/run.go -refresh -output build/status.json
+
+        ruby ./hack/commit.rb
