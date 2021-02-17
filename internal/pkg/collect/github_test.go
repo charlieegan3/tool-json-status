@@ -29,4 +29,7 @@ func TestGitHub(t *testing.T) {
 	if latestCommit.Message != "first line" {
 		t.Error(latestCommit)
 	}
+	if latestCommit.URL != "https://github.com/charlieegan3/dotfiles/commit/136a94c7b87e2ab214cea916977b4542651d1c8c" {
+		t.Error(latestCommit.URL)
+	}
 }

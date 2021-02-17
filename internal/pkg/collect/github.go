@@ -78,7 +78,13 @@ func (l *LatestCommit) Collect(host string, username string) error {
 	l.CreatedAt = createdAt
 	l.Repo = latestPush.Repo
 	commit := latestPush.Payload.Commits[len(latestPush.Payload.Commits)-1]
-	l.URL = commit.URL
+	l.URL = strings.Replace(
+		strings.Replace(
+			strings.Replace(
+				commit.URL, "api.", "", 1,
+			),
+			"repos/", "", 1),
+		"commits", "commit", 1)
 
 	lines := strings.Split(commit.Message, "\n")
 	if len(lines) > 0 && len(commit.Message) > 0 {
