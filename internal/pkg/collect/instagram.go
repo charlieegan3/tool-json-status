@@ -4,6 +4,7 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"log"
+	"strings"
 	"time"
 
 	"github.com/charlieegan3/json-charlieegan3/internal/pkg/proxy"
@@ -52,6 +53,10 @@ func latestPosts(url, username, cookie string) ([]types.LatestPost, error) {
 
 	headers := map[string]string{
 		"Cookie": cookie,
+	}
+
+	if !strings.HasSuffix(url, "/") {
+		url += "/"
 	}
 
 	_, body, err := proxy.GetURLViaProxy(url+username+"/?__a=1", headers)
