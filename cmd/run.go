@@ -239,7 +239,7 @@ func loadConfig(configPath string) error {
 
 func main() {
 	output := flag.String("output", "status.json", "where to save the json output")
-	existingURL := flag.String("existing-url", "https://charlieegan3.com/status.json", "where to get the existing status from")
+	existingURL := flag.String("existing-url", "https://charlieegan3.github.io/json-charlieegan3/build/status.json", "where to get the existing status from")
 	refresh := flag.Bool("refresh", false, "download new status data")
 	repeat := flag.Bool("repeat", false, "run forever refreshing the data every interval")
 	interval := flag.Int("interval", 600, "seconds to wait before refreshes")
