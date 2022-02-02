@@ -12,29 +12,28 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cenkalti/backoff/v4"
-	humanize "github.com/dustin/go-humanize"
-	"gopkg.in/yaml.v2"
+	backoff "github.com/cenkalti/backoff/v4"
+	"github.com/dustin/go-humanize"
+	"github.com/go-yaml/yaml"
+	"github.com/pkg/errors"
 
 	"github.com/charlieegan3/json-charlieegan3/internal/pkg/collect"
 	"github.com/charlieegan3/json-charlieegan3/internal/pkg/proxy"
-	"github.com/pkg/errors"
 )
 
 type config struct {
-	ExportPath            string `yaml:"export_path"`
-	LastfmKey             string `yaml:"lastfm_key"`
-	PlaySource            string `yaml:"play_source"`
-	ProxyToken            string `yaml:"proxy_token"`
-	ProxyURL              string `yaml:"proxy_url"`
-	StatusHost            string `yaml:"status_host"`
-	StatusKey             string `yaml:"status_key"`
-	StravaClientID        string `yaml:"strava_client_id"`
-	StravaClientSecret    string `yaml:"strava_client_secret"`
-	StravaRefreshToken    string `yaml:"strava_refresh_token"`
-	TwitterCredentials    string `yaml:"twitter_credentials"`
-	Username              string `yaml:"username"`
-	InstagramCookieString string `yaml:"instagram_cookie_string"`
+	ExportPath         string `yaml:"export_path"`
+	LastfmKey          string `yaml:"lastfm_key"`
+	PlaySource         string `yaml:"play_source"`
+	ProxyToken         string `yaml:"proxy_token"`
+	ProxyURL           string `yaml:"proxy_url"`
+	StatusHost         string `yaml:"status_host"`
+	StatusKey          string `yaml:"status_key"`
+	StravaClientID     string `yaml:"strava_client_id"`
+	StravaClientSecret string `yaml:"strava_client_secret"`
+	StravaRefreshToken string `yaml:"strava_refresh_token"`
+	TwitterCredentials string `yaml:"twitter_credentials"`
+	Username           string `yaml:"username"`
 }
 
 var cfg config
@@ -75,12 +74,6 @@ func (s *status) fetchCurrent(url string) error {
 func (s *status) fetchNew(previousStatus status) {
 	username := cfg.Username
 
-	cookie := cfg.InstagramCookieString
-	if cookie == "" {
-		log.Fatal("InstagramCookieString must be set (contains session id)")
-		os.Exit(1)
-	}
-
 	var wg sync.WaitGroup
 	wg.Add(6)
 
@@ -96,9 +89,9 @@ func (s *status) fetchNew(previousStatus status) {
 
 	go func() {
 		defer wg.Done()
-		err := s.Post.Collect("https://instagram.com/", username, cookie)
+		err := s.Post.Collect("https://photos.charlieegan3.com/posts/latest.json")
 		if err != nil {
-			fmt.Println(errors.Wrap(err, "instagram error"))
+			fmt.Println(errors.Wrap(err, "post collection error"))
 			s.Post = previousStatus.Post
 		}
 	}()
