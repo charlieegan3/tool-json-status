@@ -26,7 +26,6 @@ type Refresh struct {
 	PlaySource string
 	PostSource string
 
-	LastFMKey          string
 	TwitterCredentials string
 	StravaClientSecret string
 	StravaRefreshToken string

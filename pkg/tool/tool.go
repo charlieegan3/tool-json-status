@@ -57,12 +57,6 @@ func (t *JSONStatus) Jobs() ([]apis.Job, error) {
 		return j, fmt.Errorf("missing required config path: %s", path)
 	}
 
-	path = "lastfm.key"
-	lastfmKey, ok := t.config.Path(path).Data().(string)
-	if !ok {
-		return j, fmt.Errorf("missing required config path: %s", path)
-	}
-
 	path = "twitter.credentials"
 	twitterCredentials, ok := t.config.Path(path).Data().(string)
 	if !ok {
@@ -105,7 +99,6 @@ func (t *JSONStatus) Jobs() ([]apis.Job, error) {
 			Username:           username,
 			PlaySource:         playSource,
 			PostSource:         postSource,
-			LastFMKey:          lastfmKey,
 			TwitterCredentials: twitterCredentials,
 			StravaClientSecret: stravaClientSecret,
 			StravaRefreshToken: stravaRefreshToken,
