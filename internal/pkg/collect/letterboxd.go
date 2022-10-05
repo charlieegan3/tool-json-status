@@ -45,11 +45,16 @@ type LatestFilm struct {
 // Collect returns the latest film in user's activity
 // host: https://letterboxd.com
 func (l *LatestFilm) Collect(host string, username string) error {
-	resp, err := http.Get(fmt.Sprintf("%s/%s/rss", host, username))
+	client := &http.Client{}
+	req, err := http.NewRequest("GET", fmt.Sprintf("%s/%s/rss", host, username), nil)
 	if err != nil {
-		return errors.Wrap(err, "get films failed")
+		return errors.Wrap(err, "failed to create request")
 	}
 
+	resp, err := client.Do(req)
+	if err != nil {
+		return errors.Wrap(err, "failed to get film RSS")
+	}
 	defer resp.Body.Close()
 
 	var rss rssDocument

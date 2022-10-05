@@ -10,28 +10,6 @@ import (
 	"github.com/pkg/errors"
 )
 
-var stravaClientID, stravaClientSecret, stravaRefreshToken string
-
-// StravaInit sets the credentials for the Collect function to talk to the
-// strava api
-func StravaInit(clientID, clientSecret, refreshToken string) error {
-	if clientID == "" {
-		return fmt.Errorf("client id cannot be blank")
-	}
-	if clientSecret == "" {
-		return fmt.Errorf("client secret cannot be blank")
-	}
-	if refreshToken == "" {
-		return fmt.Errorf("refresh token cannot be blank")
-	}
-
-	stravaClientID = clientID
-	stravaClientSecret = clientSecret
-	stravaRefreshToken = refreshToken
-
-	return nil
-}
-
 type activity struct {
 	AverageHeartrate float64 `json:"average_heartrate"`
 	ID               int64   `json:"id"`
@@ -64,7 +42,7 @@ type accessTokenResponse struct {
 
 // Collect returns details about the most recent strava activity
 // host https://www.strava.com
-func (l *LatestActivity) Collect(host string) error {
+func (l *LatestActivity) Collect(stravaClientID, stravaClientSecret, stravaRefreshToken, host string) error {
 	body := strings.NewReader(
 		fmt.Sprintf(
 			`client_id=%s&client_secret=%s&grant_type=refresh_token&refresh_token=%s`,
