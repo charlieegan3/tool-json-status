@@ -12,6 +12,13 @@ func BuildLatestHandler(db *sql.DB) func(http.ResponseWriter, *http.Request) {
 	goquDB := goqu.New("postgres", db)
 
 	return func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Access-Control-Allow-Origin", "https://charlieegan3.com")
+		w.Header().Set("Access-Control-Allow-Methods", "GET, OPTIONS")
+		w.Header().Set("Access-Control-Allow-Headers", "Origin, Content-Type")
+		if r.Method == "OPTIONS" {
+			return
+		}
+
 		sel := goquDB.From("jsonstatus.data").Select("value").Where(goqu.C("key").Eq("status")).Limit(1)
 		var statusJSON string
 		found, err := sel.Executor().ScanVal(&statusJSON)
@@ -26,9 +33,7 @@ func BuildLatestHandler(db *sql.DB) func(http.ResponseWriter, *http.Request) {
 			return
 		}
 
-		// set the content type to JSON
 		w.Header().Set("Content-Type", "application/json")
-
 		w.Write([]byte(statusJSON))
 	}
 }

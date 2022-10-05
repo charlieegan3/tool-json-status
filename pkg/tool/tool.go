@@ -119,7 +119,7 @@ func (t *JSONStatus) HTTPAttach(router *mux.Router) error {
 	router.HandleFunc(
 		"/latest.json",
 		handlers.BuildLatestHandler(t.db),
-	).Methods("GET")
+	).Methods("GET", "OPTIONS")
 
 	return nil
 }
