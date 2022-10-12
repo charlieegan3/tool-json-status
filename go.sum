@@ -193,6 +193,8 @@ github.com/cespare/xxhash/v2 v2.1.1/go.mod h1:VGX0DQ3Q6kWi7AoAeZDth3/j3BFtOZR5XL
 github.com/cespare/xxhash/v2 v2.1.2/go.mod h1:VGX0DQ3Q6kWi7AoAeZDth3/j3BFtOZR5XLFGgcrjCOs=
 github.com/charlieegan3/toolbelt v0.0.0-20221005090254-0aa39c308225 h1:TuL3Vn5Q8oH6xZurFHJRBwV51nvgREM7VVkZvr72760=
 github.com/charlieegan3/toolbelt v0.0.0-20221005090254-0aa39c308225/go.mod h1:GHRnkuy/gW44uvXKFaj7y3iBT+W/BPqrqoDMdoU1Hn4=
+github.com/charlieegan3/toolbelt v0.0.0-20221012131106-c0a8a7937c75 h1:fh6p6dD8nA4SOLVftJsjrtO37bgR1BDDgofPu0b2q8U=
+github.com/charlieegan3/toolbelt v0.0.0-20221012131106-c0a8a7937c75/go.mod h1:GHRnkuy/gW44uvXKFaj7y3iBT+W/BPqrqoDMdoU1Hn4=
 github.com/checkpoint-restore/go-criu/v4 v4.1.0/go.mod h1:xUQBLp4RLc5zJtWY++yjOoMoB5lihDt7fai+75m+rGw=
 github.com/checkpoint-restore/go-criu/v5 v5.0.0/go.mod h1:cfwC0EG7HMUenopBsUf9d89JlCLQIfgVcNsNN0t6T2M=
 github.com/checkpoint-restore/go-criu/v5 v5.3.0/go.mod h1:E/eQpaFtUKGOOSEBZgmKAcn+zUUwWxqcaKZlF54wK8E=

@@ -18,7 +18,7 @@ func main() {
 	viper.AddConfigPath(".")
 	err = viper.ReadInConfig()
 	if err != nil {
-		log.Fatalf("Fatal error config file: %w \n", err)
+		log.Fatalf("Fatal error config file: %s \n", err)
 	}
 
 	params := viper.GetStringMapString("database.params")

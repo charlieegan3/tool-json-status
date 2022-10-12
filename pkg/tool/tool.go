@@ -6,10 +6,11 @@ import (
 	"fmt"
 
 	"github.com/Jeffail/gabs/v2"
-	"github.com/charlieegan3/tool-json-status/pkg/tool/handlers"
-	"github.com/charlieegan3/tool-json-status/pkg/tool/jobs"
 	"github.com/charlieegan3/toolbelt/pkg/apis"
 	"github.com/gorilla/mux"
+
+	"github.com/charlieegan3/tool-json-status/pkg/tool/handlers"
+	"github.com/charlieegan3/tool-json-status/pkg/tool/jobs"
 )
 
 //go:embed migrations
@@ -106,6 +107,7 @@ func (t *JSONStatus) Jobs() ([]apis.Job, error) {
 		},
 	}, nil
 }
+func (t *JSONStatus) ExternalJobsFuncSet(f func(job apis.ExternalJob) error) {}
 
 func (t *JSONStatus) DatabaseMigrations() (*embed.FS, string, error) {
 	return &jsonStatusToolMigrations, "migrations", nil

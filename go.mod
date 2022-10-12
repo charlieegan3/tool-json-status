@@ -5,7 +5,7 @@ go 1.19
 require (
 	github.com/ChimeraCoder/anaconda v2.0.0+incompatible
 	github.com/Jeffail/gabs/v2 v2.6.1
-	github.com/charlieegan3/toolbelt v0.0.0-20221005090254-0aa39c308225
+	github.com/charlieegan3/toolbelt v0.0.0-20221012131106-c0a8a7937c75
 	github.com/doug-martin/goqu/v9 v9.18.0
 	github.com/dustin/go-humanize v1.0.0
 	github.com/gorilla/mux v1.8.0
