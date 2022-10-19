@@ -125,6 +125,8 @@ func (r *Refresh) Run(ctx context.Context) error {
 
 		wg.Wait()
 
+		s.CreatedAt = time.Now()
+
 		jsonStatus, err := json.Marshal(s)
 		if err != nil {
 			errCh <- fmt.Errorf("failed to marshal status: %w", err)

@@ -47,7 +47,19 @@ func (t *JSONStatus) Jobs() ([]apis.Job, error) {
 
 	// load all config
 	path = "jobs.refresh.schedule"
-	schedule, ok := t.config.Path(path).Data().(string)
+	scheduleRefresh, ok := t.config.Path(path).Data().(string)
+	if !ok {
+		return j, fmt.Errorf("missing required config path: %s", path)
+	}
+
+	path = "jobs.check.schedule"
+	scheduleCheck, ok := t.config.Path(path).Data().(string)
+	if !ok {
+		return j, fmt.Errorf("missing required config path: %s", path)
+	}
+
+	path = "jobs.check.alert_endpoint"
+	alertEndpoint, ok := t.config.Path(path).Data().(string)
 	if !ok {
 		return j, fmt.Errorf("missing required config path: %s", path)
 	}
@@ -94,9 +106,14 @@ func (t *JSONStatus) Jobs() ([]apis.Job, error) {
 	}
 
 	return []apis.Job{
+		&jobs.Check{
+			DB:               t.db,
+			ScheduleOverride: scheduleCheck,
+			AlertEndpoint:    alertEndpoint,
+		},
 		&jobs.Refresh{
 			DB:                 t.db,
-			ScheduleOverride:   schedule,
+			ScheduleOverride:   scheduleRefresh,
 			Username:           username,
 			PlaySource:         playSource,
 			PostSource:         postSource,
