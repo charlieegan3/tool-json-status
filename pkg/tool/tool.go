@@ -134,6 +134,7 @@ func (t *JSONStatus) DatabaseSet(db *sql.DB) {
 }
 
 func (t *JSONStatus) HTTPPath() string { return "json-status" }
+func (t *JSONStatus) HTTPHost() string { return "" }
 func (t *JSONStatus) HTTPAttach(router *mux.Router) error {
 	router.HandleFunc(
 		"/latest.json",
