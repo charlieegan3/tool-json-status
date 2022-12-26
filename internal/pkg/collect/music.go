@@ -4,13 +4,13 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
+	"net/url"
 	"time"
 
 	"github.com/pkg/errors"
 )
 
-type response struct {
-	LastUpdated string `json:"LastUpdated"`
+type recentPlayResponse struct {
 	RecentPlays []struct {
 		Album     string `json:"Album"`
 		Artist    string `json:"Artist"`
@@ -32,22 +32,21 @@ type LatestPlay struct {
 }
 
 // Collect returns a user's latest commit and project
-func (l *LatestPlay) Collect(url string) error {
-	resp, err := http.Get(fmt.Sprintf(url))
+func (l *LatestPlay) Collect(sourceURL string) error {
+	resp, err := http.Get(fmt.Sprintf(sourceURL))
 	if err != nil {
 		return errors.Wrap(err, "Music get failed")
 	}
-
 	defer resp.Body.Close()
 
-	var res response
+	var res recentPlayResponse
 	err = json.NewDecoder(resp.Body).Decode(&res)
 	if err != nil {
-		return errors.Wrap(err, "Music body unmarshal failed")
+		return errors.Wrap(err, "music body unmarshal failed")
 	}
 
 	if len(res.RecentPlays) < 1 {
-		return errors.New("There were no plays in the response")
+		return errors.New("There were no plays in the recentPlayResponse")
 	}
 
 	latestPlay := res.RecentPlays[0]
@@ -58,8 +57,11 @@ func (l *LatestPlay) Collect(url string) error {
 
 	l.Album = latestPlay.Album
 	l.Artist = latestPlay.Artist
-	l.Artwork = latestPlay.Artwork
 	l.Track = latestPlay.Track
+
+	hostURL, _ := url.Parse(sourceURL)
+	hostURL.Path = ""
+	l.Artwork = hostURL.String() + latestPlay.Artwork
 
 	return nil
 }

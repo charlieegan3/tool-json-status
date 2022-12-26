@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	"log"
+	"os"
 
 	"github.com/charlieegan3/toolbelt/pkg/database"
 	"github.com/charlieegan3/toolbelt/pkg/tool"
@@ -32,9 +33,24 @@ func main() {
 	tb.SetConfig(viper.GetStringMap("tools"))
 	tb.SetDatabase(db)
 
-	err = tb.AddTool(&jsonStatusTool.JSONStatus{})
+	jst := &jsonStatusTool.JSONStatus{}
+	err = tb.AddTool(jst)
 	if err != nil {
 		log.Fatalf("failed to add tool: %v", err)
+	}
+
+	if len(os.Args) == 2 {
+		jobs, err := jst.Jobs()
+		if err != nil {
+			log.Fatalf("failed to get jobs: %v", err)
+		}
+
+		err = jobs[1].Run(context.Background())
+		if err != nil {
+			log.Fatalf("failed to run job: %v", err)
+		}
+
+		return
 	}
 
 	// go tb.RunJobs(context.Background())
