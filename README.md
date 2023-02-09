@@ -5,7 +5,6 @@ public activities to keep the 'live' section on [charlieegan3.com](http://charli
 
 * [photos.charlieegan3.com](https://photos.charlieegan3.com)
 * [music.charlieegan3.com](https://music.charlieegan3.com)
-* Twitter
 * GitHub
 * Strava
 * Letterboxd
@@ -18,8 +17,6 @@ tools:
   json-status:
     username: xxx
 
-    twitter:
-      credentials: xxx
     strava:
       client_secret: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
       refresh_token: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx

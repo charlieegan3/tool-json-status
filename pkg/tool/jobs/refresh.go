@@ -6,7 +6,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"log"
-	"strings"
 	"sync"
 	"time"
 
@@ -26,7 +25,6 @@ type Refresh struct {
 	PlaySource string
 	PostSource string
 
-	TwitterCredentials string
 	StravaClientSecret string
 	StravaRefreshToken string
 	StravaClientID     string
@@ -67,16 +65,6 @@ func (r *Refresh) Run(ctx context.Context) error {
 
 		var wg sync.WaitGroup
 		wg.Add(6)
-
-		go func() {
-			defer wg.Done()
-			twitterCredentials := strings.Split(r.TwitterCredentials, ",")
-			err := s.Tweet.Collect("https://api.twitter.com/1.1", twitterCredentials)
-			if err != nil {
-				log.Printf("failed to collect twitter: %s", err)
-				s.Tweet = previousStatus.Tweet
-			}
-		}()
 
 		go func() {
 			defer wg.Done()

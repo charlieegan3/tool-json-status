@@ -8,7 +8,6 @@ import (
 )
 
 type Data struct {
-	Tweet     collect.LatestTweet    `json:"tweet"`
 	Post      collect.LatestPost     `json:"post"`
 	Activity  collect.LatestActivity `json:"activity"`
 	Film      collect.LatestFilm     `json:"film"`
@@ -18,7 +17,6 @@ type Data struct {
 }
 
 func (d *Data) setCreatedAtStrings() {
-	d.Tweet.CreatedAtString = utils.CompactHumanizeTime(d.Tweet.CreatedAt)
 	d.Post.CreatedAtString = utils.CompactHumanizeTime(d.Post.CreatedAt)
 	d.Activity.CreatedAtString = utils.CompactHumanizeTime(d.Activity.CreatedAt)
 	d.Film.CreatedAtString = utils.CompactHumanizeTime(d.Film.CreatedAt)
